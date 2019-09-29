@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Bigelow Rules', cursive;
+  font-size: 44px;
+  letter-spacing: 1.5px;
+  color: #ec1c24;
+  margin-top: 24px;
+}
+
+.container {
+  padding: 0 80px;
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
